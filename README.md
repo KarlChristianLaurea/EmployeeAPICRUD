@@ -82,6 +82,7 @@ In appsettings.json, update the database connection string:
 }
 
 ▶️ 4. Run the API
+
 Option A: Using Visual Studio
 Press F5 or click Start Debugging
 
@@ -90,7 +91,7 @@ dotnet restore
 dotnet build
 dotnet run
 The app should start at:
-https://localhost:7225
+Navigate to: [https://localhost:7225](https://localhost:7225)
 
 🧪 5. Test the API  
 Open in browser: [https://localhost:7225/swagger/index.html](https://localhost:7225/swagger/index.html)
