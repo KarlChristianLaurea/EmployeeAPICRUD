@@ -33,23 +33,8 @@ Make sure you have the following installed:
 
 ---
 ## 📁 Project Structure
-📦 EmployeeAPI
-├── 📂 Controllers
-│ └── 📄 EmployeeController.cs
-├── 📂 Models
-│ └── 📄 Employee.cs
-├── 📂 Data
-│ └── 📄 ApplicationDbContext.cs
-├── 📂 wwwroot
-│ └── 📂 ui
-│ ├── 📄 index.html
-│ ├── 📄 create.html
-│ ├── 📄 edit.html
-│ ├── 📄 delete.html
-│ ├── 📂 js
-│ └── 📂 css
-├── 📄 Program.cs
-└── 📄 appsettings.json
+![image](https://github.com/user-attachments/assets/36aa50ec-60ed-4950-81c8-998ec8468fe3)
+
 
 --- Create the Database and run this Query so that you have the stored procedure in place
 ## Create the Database & Table
@@ -107,12 +92,11 @@ dotnet run
 The app should start at:
 https://localhost:7225
 
-🧪 5. Test the API
-Open in browser:
-https://localhost:7225/swagger/index.html
+🧪 5. Test the API  
+Open in browser: [https://localhost:7225/swagger/index.html](https://localhost:7225/swagger/index.html)
 
-🌐 6. Use the HTML UI
-https://localhost:7225/ui/index.html
+🌐 6. Use the HTML UI  
+Access the UI: [https://localhost:7225/ui/index.html](https://localhost:7225/ui/index.html)
 From there, you can:
 1. Create new Employee
 2. Update current Employee
