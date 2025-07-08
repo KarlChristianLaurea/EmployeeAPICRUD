@@ -1,0 +1,12 @@
+﻿body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.table td, .table th {
+    vertical-align: middle;
+    text-align: center;
+}
