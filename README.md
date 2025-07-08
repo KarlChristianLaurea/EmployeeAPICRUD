@@ -32,8 +32,24 @@ Make sure you have the following installed:
 - [SQL Server Management Studio (SSMS)](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)
 
 ---
-
-<pre lang="markdown"> ## 📁 Project Structure ``` EmployeeAPI/ ├── Controllers/ │ └── EmployeeController.cs ├── Models/ │ └── Employee.cs ├── Data/ │ └── ApplicationDbContext.cs ├── wwwroot/ │ └── ui/ │ ├── index.html │ ├── create.html │ ├── edit.html │ ├── delete.html │ ├── js/ │ └── css/ ├── Program.cs ├── appsettings.json ``` </pre>
+## 📁 Project Structure
+📦 EmployeeAPI
+├── 📂 Controllers
+│ └── 📄 EmployeeController.cs
+├── 📂 Models
+│ └── 📄 Employee.cs
+├── 📂 Data
+│ └── 📄 ApplicationDbContext.cs
+├── 📂 wwwroot
+│ └── 📂 ui
+│ ├── 📄 index.html
+│ ├── 📄 create.html
+│ ├── 📄 edit.html
+│ ├── 📄 delete.html
+│ ├── 📂 js
+│ └── 📂 css
+├── 📄 Program.cs
+└── 📄 appsettings.json
 
 --- Create the Database and run this Query so that you have the stored procedure in place
 ## Create the Database & Table
