@@ -72,15 +72,19 @@ Or open the folder using File > Open > Project/Solution
 
 ⚙️ 3. Set Your Connection String
 In appsettings.json, update the database connection string:
+
 🔒 For SQL Authentication:
+```
 "ConnectionStrings": {
   "DefaultConnection": "Server=localhost;Database=EmployeeDB;User Id=yourUser;Password=yourPassword;"
 }
+```
 🧾 For Windows Authentication:
+```
 "ConnectionStrings": {
   "DefaultConnection": "Server=localhost;Database=EmployeeDB;Trusted_Connection=True;"
 }
-
+```
 ▶️ 4. Run the API
 
 Option A: Using Visual Studio
