@@ -33,7 +33,8 @@ Make sure you have the following installed:
 
 ---
 
-## 📁 Project Structure ``` EmployeeAPI/ ├── Controllers/ │ └── EmployeeController.cs ├── Models/ │ └── Employee.cs ├── Data/ │ └── ApplicationDbContext.cs ├── wwwroot/ │ └── ui/ │ ├── index.html │ ├── create.html │ ├── edit.html │ ├── delete.html │ ├── js/ │ └── css/ ├── Program.cs ├── appsettings.json ```
+## 📁 Project Structure 
+``` EmployeeAPI/ ├── Controllers/ │ └── EmployeeController.cs ├── Models/ │ └── Employee.cs ├── Data/ │ └── ApplicationDbContext.cs ├── wwwroot/ │ └── ui/ │ ├── index.html │ ├── create.html │ ├── edit.html │ ├── delete.html │ ├── js/ │ └── css/ ├── Program.cs ├── appsettings.json ```
 
 --- Create the Database and run this Query so that you have the stored procedure in place
 ## Create the Database & Table
@@ -44,6 +45,7 @@ dotnet ef migrations add InitialCreate
 dotnet ef database update
 
 --- Stored Procedure
+```sql
 CREATE PROCEDURE sp_InsertFiveEmployees
 AS
 BEGIN
@@ -54,7 +56,7 @@ BEGIN
     ('Emily Davis', 'HR Specialist'),
     ('Robert Brown', 'Project Manager');
 END;
-
+```
 ---
 ## How to Run the Solution
 🔧 1. Clone the Project
